@@ -29,8 +29,8 @@ AppRate = (function() {
 
   function AppRate() {}
 
-  LOCAL_STORAGE_COUNTER = 'counter';
-  LOCAL_STORAGE_IOS_RATING = 'iosRating';
+  LOCAL_STORAGE_COUNTER = 'appRate[counter]';
+  LOCAL_STORAGE_IOS_RATING = 'appRate[iosRating]';
 
   FLAG_NATIVE_CODE_SUPPORTED = /(iPhone|iPod|iPad|Android)/i.test(navigator.userAgent.toLowerCase());
 
